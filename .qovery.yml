@@ -1,0 +1,11 @@
+---
+application:
+  name: "tgindex2"
+  project: "asdf1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-tgindex2"
+  routes:
+  - application_name: "tgindex2"
+    paths:
+    - "/*"
